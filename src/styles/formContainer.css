@@ -1,0 +1,31 @@
+.Container{
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    column-gap: 40px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 40px;
+
+    
+}
+
+.formContainer{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 400px;
+    border: solid 1px black;
+    border-radius: 4px;
+    padding-bottom: 20px;
+    width: 500px;
+    
+}
+
+.input{
+    
+    width: 100%;
+
+}
+
+#pDescription, #cDescription, #eDescription{
+    height: 100px;
+}

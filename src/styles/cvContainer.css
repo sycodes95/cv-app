@@ -1,0 +1,24 @@
+.cvContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px;
+    border: solid 1px black;
+    border-radius: 4px;
+    width: 600px;
+    padding: 20px;
+    justify-self: right;
+   
+}
+
+.personalWordContainer{
+    font-size: 12px;
+    font-weight:400;
+    border-bottom: solid 2px red;
+}
+.workExperience{
+    font-size: 20px;
+}
+.workWordContainer > div{
+    font-size: 12px;
+
+}
